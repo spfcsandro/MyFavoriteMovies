@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">MyFavoriteMovies</string>
+    <string name="nome_filme">Nome do Filme</string>
+    <string name="buscar">Buscar</string>
+    <string name="titulo_filme">Título</string>
+    <string name="ano_filme">Ano</string>
+    <string name="buscar_filme">Buscar Filme</string>
+    <string name="listar_filme">Listar Filme</string>
+    <string name="detalhe_filme">Detalhe Filme</string>
+    <string name="aleatorio_filme">Aleatorio Filme</string>
+    <string name="collapsed_filme">Collapsed Filme</string>
+    <string name="pesquisar_filme">Pesquisar Filme...</string>
+    <string name="sinopse">SINOPSE:</string>
+    <string name="favoritos">FAVORITOS</string>
+    <string name="procurar">PROCURAR</string>
+    <string name="sair">Sair</string>
+    <string name="alerta_remover">Remover dos Favoritos</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <!--<string name="title_activity_scrolling">ScrollingActivity</string>-->
+
+
+</resources>

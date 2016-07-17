@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardView="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    cardView:cardCornerRadius="8dp"
+    cardView:cardElevation="6dp">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/ivImageOMDB"
+            android:layout_width="wrap_content"
+            android:layout_height="215dp" />
+
+        <TextView
+            android:id="@+id/txtTituloOMDB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_toEndOf="@+id/ivImageOMDB"
+            android:layout_toRightOf="@+id/ivImageOMDB"
+            android:text="@string/titulo_filme"
+            android:textAlignment="center"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/txtAnoOMDB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtTituloOMDB"
+            android:layout_gravity="center_horizontal"
+            android:layout_toRightOf="@+id/ivImageOMDB"
+            android:text="@string/ano_filme"
+            android:textColor="#FF0000" />
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

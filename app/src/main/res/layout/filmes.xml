@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/view"
+    android:layout_width="match_parent"
+    android:layout_height="177dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="5dp"
+    app:cardBackgroundColor="#ffffff"
+    app:cardElevation="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ivImageOMDB"
+            android:layout_width="138dp"
+            android:layout_height="177dp" />
+
+
+        <TextView
+            android:id="@+id/txtTituloOMDB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/ivImageOMDB"
+            android:text="@string/titulo_filme"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:id="@+id/txtAnoOMDB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtTituloOMDB"
+            android:layout_toRightOf="@+id/ivImageOMDB"
+            android:text="@string/ano_filme"
+            android:textColor="#FF0000" />
+
+
+        <ImageView
+            android:id="@+id/ivFavorito"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtAnoOMDB"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/ivImageOMDB"
+            android:src="@drawable/star_outline36" />
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
+
+
